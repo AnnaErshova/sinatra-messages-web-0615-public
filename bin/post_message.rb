@@ -7,6 +7,7 @@
 require "net/http" # automaticlaly requires 'uri'
 # require 'uri'
 
+loop do 
 puts "Welcome!"
 print "Who do you want to message? "
 to = gets.strip
@@ -32,3 +33,4 @@ else
 end
 
 puts ""
+end

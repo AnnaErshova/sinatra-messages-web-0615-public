@@ -1,3 +1,4 @@
+require "net/http"
 require 'bundler/setup'
 Bundler.require(:default)
 
